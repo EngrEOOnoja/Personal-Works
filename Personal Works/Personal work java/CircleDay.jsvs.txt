@@ -1,0 +1,14 @@
+import java.util.Scanner;
+	public class CircleDay {
+	 public static void main(String[] args) {
+	  Scanner input = new Scanner(System.in);
+	   System.out.print("Enter Radius: ");
+	   double Radius = input.nextInt();
+	 
+		 System.out.println("Diameter is :" + " " + 2 * Radius);
+		 System.out.println("Circumfrence is :" + " " + 2 * Math.PI * Radius);
+		 System.out.println("Area is :" + " " + Math.PI * Radius * Radius);
+
+		
+	}
+}

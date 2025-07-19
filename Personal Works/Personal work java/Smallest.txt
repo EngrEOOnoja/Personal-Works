@@ -1,0 +1,45 @@
+import java.util.Scanner;
+	public class Smallest{
+	 public static void main(String[] args) {
+	  Scanner input = new Scanner(System.in);
+	   System.out.print("Enter first interger: ");
+	   int Number1 = input.nextInt();
+	   System.out.print("Enter second interger: ");
+	   int Number2 = input.nextInt();
+	   System.out.print("Enter third interger: ");
+	   int Number3 = input.nextInt();
+
+		int Sum = (Number1 + Number2 + Number3);
+		 System.out.printf("Sum is %d%n", Sum);
+		int Average = (Sum / 3);
+		 System.out.printf("Average is %d%n", Average);
+		int Product = (Number1 * Number2 * Number3);
+		 System.out.printf("Product is %d%n", Sum);
+
+		 if (Number1 < Number2 &< Number3) {
+		 System.out.printf("SmallestNumber is %d%n", Smallest);
+		}
+		 if (Sqr < Number2) {
+		 System.out.printf("%d < %d%n", Sqr, Number2);
+		}
+		 if (Number1 == Number2) {
+		 System.out.printf("%d == %d%n", Number1, Number2);
+		}
+		 if (Sqr == Number2) {
+		 System.out.printf("%d == %d%n", Sqr, Number2);
+		}
+		 if (Number1 != Number2) {
+		 System.out.printf("%d != %d%n", Number1, Number2);
+		}
+		 if (Sqr != Number2) {
+		 System.out.printf("%d != %d%n", Sqr, Number2);
+		}
+		 if (Number1 > Number2) {
+		 System.out.printf("%d > %d%n", Number1, Number2);
+		}
+		 if (Sqr > Number2) {
+		 System.out.printf("%d > %d%n", Sqr, Number2);
+		}
+
+	}
+}

@@ -1,0 +1,7 @@
+import java.util.Scanner;
+
+ public class {
+  public static void mainMethod  (String[] args) {
+   Scanner scanner = 
+	}
+}
