@@ -1,10 +1,10 @@
 const readline = require('readline');
-const rl = readline.createInterface({
+const grade = readline.createInterface({
 input: process.stdin,
 output: process.stdout
 });
 function getScore() {
-  rl.question('Please enter a value between 0 and 100: ', score => {
+  grade.question('Please enter a value between 0 and 100: ', score => {
   score = parseInt(score);
   if (score >= 0 && score <= 100) {
   let grade = calculateGrade(score);
@@ -48,12 +48,10 @@ if (grade === 'A') {
 }
 
 function askAgain() {
-rl.question('Try another score? (yes/no): ', answer => {
+grade.question('Try another score? (yes/no): ', answer => {
 if (answer.toLowerCase() === 'yes') {
 getScore();
-} else {
-rl.close();
-    }
+}
   });
 }
 
