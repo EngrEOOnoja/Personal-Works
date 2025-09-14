@@ -1,0 +1,11 @@
+from unittest import TestCase
+import function_snacks_recap
+
+
+class TestFunctionSnacksRecap(TestCase):
+	def test_that_function_snacks_recap_exists(self):
+		result = function_snacks.get_squares_of_list(25)
+		self.assertEqual(result, 25)
+
+
+
