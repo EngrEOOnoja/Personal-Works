@@ -12,4 +12,17 @@ for (let index = 0;  index < primeNumber;  index++){
 	});
 	
 	
+	let totalNumber = 150;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	

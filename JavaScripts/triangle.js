@@ -6,9 +6,7 @@ for(index = 0; index < 6; index++){
 	for(angle = 0; angle < index; angle++){
 	triangle += 1;		
 		if (triangle < 10 ){
-		line += "  ncg/.[p
-		
-		;	
+		line += "";	
 	}
 	
 		
